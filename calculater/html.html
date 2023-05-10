@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="card">
+<form action="">
+    <div class="display">
+        <input class="txt" type="text" name="display">
+    </div>
+    
+
+ <button id="btn" type="button" value="AC" onclick="display.value  = '' ">AC</button>
+ <button id="btn" type="button" onclick="display.value =display.value.toString().slice(0,-1) ">DE</button>
+ <button id="btn" type="button" value="." onclick="display.value  += '.' ">.</button>
+ <button id="btn" type="button" value="/" onclick="display.value  += '/' ">/</button>
+ <button id="btn" type="button" value="7" onclick="display.value  += '7'">7</button>
+ <button id="btn" type="button" value="8" onclick="display.value  += '8' ">8</button>
+ <button id="btn" type="button" value="9" onclick="display.value  += '9' ">9</button>
+ <button id="btn" type="button" value="*" onclick="display.value  += '*' ">*</button> 
+ <button id="btn" type="button" value="4" onclick="display.value  += '4' ">4</button>
+ <button id="btn" type="button" value="5" onclick="display.value  += '5' ">5</button>
+ <button id="btn" type="button" value="6" onclick="display.value  += '6' ">6</button>
+ <button id="btn" type="button" value="-" onclick="display.value  += '-' ">-</button>
+ <button id="btn" type="button" value="1" onclick="display.value  += '1' ">1</button>
+ <button id="btn" type="button" value="2" onclick="display.value  += '2' ">2</button>
+ <button id="btn" type="button" value="3" onclick="display.value  += '3' ">3</button>
+ <button id="btn" type="button" value="+" onclick="display.value  += '+' ">+</button>
+ <button id="btn" type="button">00</button>
+ <button id="btn" type="button" value="0" onclick="display.value  += '0' ">0</button>
+ <button id="btn1" type="button" onclick="display.value =eval(display.value)" class = "equal" >=</button>
+</form>
+        </div>
+   
+</body>
+</html>
